@@ -366,7 +366,6 @@ BACKUPFILE="/tmp/backup_$(date +%Y%m%d_%H%M%s).tar.gz"
             fi
             ;;
         v|V)
-            #I feel i did wrong here please correct me
             echo "Verifying Backup"
             if [[ -f "$BACKUPFILE" ]]; then
                 echo "Backup is successfull"
